@@ -497,16 +497,9 @@ screenshots/ – Failure screenshots (auto-captured with timestamp)
 
 
 
-
 \*\*Dependency Manifest\*\*
 
-
-
-This project uses Maven. All dependencies are listed in pom.xml.
-
-\*\*Dependency Manifest\*\*
-
-This project uses Maven for dependency management. Key dependencies include:
+This project uses Maven for dependency management. All dependencies are listed in pom.xml. Key dependencies include:
 
 | Dependency                | Version | Purpose                                               |
 | ------------------------- | ------- | ----------------------------------------------------- |
