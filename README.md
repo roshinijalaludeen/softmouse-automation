@@ -351,13 +351,7 @@ Git \\\& GitHub
 
 
 
-
-
-
 \*\*Setup Instructions\*\*
-
-
-
 
 
 
@@ -510,10 +504,20 @@ screenshots/ – Failure screenshots (auto-captured with timestamp)
 
 This project uses Maven. All dependencies are listed in pom.xml.
 
+\*\*Dependency Manifest\*\*
 
+This project uses Maven for dependency management. Key dependencies include:
 
-To install them:
-
+| Dependency                | Version | Purpose                                               |
+| ------------------------- | ------- | ----------------------------------------------------- |
+| **Selenium Java**         | 4.21.0  | Browser automation using WebDriver APIs               |
+| **TestNG**                | 7.9.0   | Testing framework for writing/executing test cases    |
+| **WebDriverManager**      | 5.8.0   | Auto-manages browser drivers (no manual setup needed) |
+| **Apache POI**            | 5.2.5   | Reading/writing Excel files for test data             |
+| **ExtentReports**         | 5.1.1   | Generates rich HTML reports                           |
+| **JSON-simple**           | 1.1.1   | Lightweight library to handle JSON configs            |
+| **Maven Surefire Plugin** | 3.1.2   | Executes TestNG tests via `testng.xml`                |
+| **Maven Compiler Plugin** | JDK 21  | Compiles Java code with preview feature enabled       |
 
 
 
